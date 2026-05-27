@@ -1,0 +1,12 @@
+public class ProdutoDigital extends Produto {
+
+    public ProdutoDigital(String nome, double precoBase) {
+        super(nome, precoBase);
+    }
+
+    @Override
+    public double calcularPrecoFinal() {
+        return this.precoBase;
+    }
+    
+}

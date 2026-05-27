@@ -8,6 +8,7 @@ public class MaquinaDeCafe {
 
     public void recarregar(int quantidade) {
         this.capsulasDisponiveis = this.capsulasDisponiveis + quantidade;
+        System.out.println("Máquina recarregada!");
     }
 
     public void fazerCafe() {
@@ -15,7 +16,7 @@ public class MaquinaDeCafe {
             this.capsulasDisponiveis--;
             System.out.println("Café pronto!");
         } else {
-            System.out.println("Erro: Máquina vazia. Recarregue");
+            System.out.println("Erro: Máquina vazia. Recarregue!");
         }
     }
 }
